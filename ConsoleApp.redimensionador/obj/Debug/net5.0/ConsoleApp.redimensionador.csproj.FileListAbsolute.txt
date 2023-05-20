@@ -1,0 +1,16 @@
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.csproj.AssemblyReference.cache
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.AssemblyInfoInputs.cache
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.AssemblyInfo.cs
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.csproj.CoreCompileInputs.cache
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.exe
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.deps.json
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.runtimeconfig.json
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.runtimeconfig.dev.json
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.dll
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\ConsoleApp.redimensionador.pdb
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.dll
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\refint\ConsoleApp.redimensionador.dll
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.pdb
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.genruntimeconfig.cache
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ref\ConsoleApp.redimensionador.dll
