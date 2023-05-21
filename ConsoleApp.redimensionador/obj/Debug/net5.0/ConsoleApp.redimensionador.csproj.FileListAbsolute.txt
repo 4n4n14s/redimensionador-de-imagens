@@ -14,3 +14,5 @@ C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimen
 C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.pdb
 C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.genruntimeconfig.cache
 C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ref\ConsoleApp.redimensionador.dll
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\anani\OneDrive\Documentos\redimensionador-de-imagens\ConsoleApp.redimensionador\obj\Debug\net5.0\ConsoleApp.redimensionador.csproj.CopyComplete

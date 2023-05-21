@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AzL7Iy/xZmdXKBckdU8GSTnDLQUVCPKktpccv1c42SSUOV/Xh7qFLgUWkFauvI0GYIcl3piYwaPqAaAfjsCTZA==",
+  "dgSpecHash": "D/yEj1kqwsFx6tl5PywMyvqI9eS+lprDJkLutJdRsd8+1jKc88wMX1TNAqIYCcuIaFk5ob/eHnYtOK33hGPs+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\anani\\OneDrive\\Documentos\\redimensionador-de-imagens\\ConsoleApp.redimensionador\\ConsoleApp.redimensionador.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anani\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\anani\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

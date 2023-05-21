@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Threading;
+
 
 namespace ConsoleApp.redimensionador
 {
@@ -9,7 +11,7 @@ namespace ConsoleApp.redimensionador
         static void Main(string[] args)
         {
             Console.WriteLine("iniciando redimensionador ");
-            Thread Th = new Thread(Redimensionar);
+            Thread Th = new(Redimensionar);
             Th.Start();
            
         }
@@ -34,23 +36,69 @@ namespace ConsoleApp.redimensionador
                 Directory.CreateDirectory(diretorio_finalizado);
             }
             #endregion
+            FileStream fileStream;
+            FileInfo fileInfo;
+
 
             while (true)
             {
                 //meu programa irá olhar para a pasta de entrada
                 //se tiver arquivo, ele irá redimensionar
+                var arquivosEntrada = Directory.EnumerateFiles(diretorio_entrada);
 
                 //ler o tamanho que ira redimensionar
+                int novaAltura = 200;
+
+                foreach (var arquivo in arquivosEntrada)
+                {
+                    Console.WriteLine(arquivo);
+
+                    fileStream  = new(arquivo, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+                    fileInfo  = new(arquivo);
 
 
-                //redimenciona
+                    string caminho = Environment.CurrentDirectory +@"\" + diretorio_redimensionado 
+                        + @"\" + fileInfo.Name + DateTime.Now.Millisecond.ToString() + "_"+ fileInfo.Name;
+                    //redimenciona
 
-                //copia o arquivos redimencionado para a pasta redimencionado
-
-                //move o arquivo de entrada para a pasta de finalizados 
+                    Redimensionador(Image.FromStream(fileStream), novaAltura, caminho);
 
 
-                Thread.Sleep(new TimeSpan(0, 0, 3));
+                    //fecha o arquivo
+                    fileStream.Close();
+
+
+
+
+
+                    //move o arquivo de entrada para a pasta de finalizados 
+                    string caminhoFinalizado = Environment.CurrentDirectory + @"\" + diretorio_finalizado + @"\" + fileInfo.Name;
+                    fileInfo.MoveTo(caminhoFinalizado);
+
+
+                    
+
+                }
+                Thread.Sleep(new TimeSpan(0, 0, 5));
+            }
+
+            
+           
+            static void Redimensionador(Image imagem, int altura, string caminho)
+            {
+
+                double ratio = (double)altura / imagem.Height;
+                int novaLargura = (int)(imagem.Width * ratio);
+                int novaAltura = (int)(imagem.Height * ratio);
+
+                Bitmap novaImage = new(novaLargura, novaAltura);
+
+                using (Graphics g = Graphics.FromImage(novaImage))
+                {
+                    g.DrawImage(imagem, 0, 0, novaLargura, novaAltura );
+                }
+                novaImage.Save(caminho);
+                imagem.Dispose();
             }
 
         }
